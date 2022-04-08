@@ -1,0 +1,4 @@
+#Fri Apr 08 14:49:37 BRT 2022
+base.0=/Users/robson_moroni/Documents/Moroni/Prog-Dispositivos-Moveis-main/app_06/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
