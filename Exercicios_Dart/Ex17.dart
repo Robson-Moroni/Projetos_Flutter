@@ -16,11 +16,11 @@ class Pessoas {
 }
 
 void main() {
-  Pessoas p1 = Pessoas("Fabio", 30);
-  Pessoas p2 = Pessoas("Fabio", 30);
-  Pessoas p3 = Pessoas("Fabio", 30);
-  Pessoas p4 = Pessoas("Fabio", 30);
-  Pessoas p5 = Pessoas("Fabio", 30);
+  Pessoas p1 = Pessoas("jarro", 21);
+  Pessoas p2 = Pessoas("rubens", 26);
+  Pessoas p3 = Pessoas("caue", 21);
+  Pessoas p4 = Pessoas("pedro", 26);
+  Pessoas p5 = Pessoas("matheus", 21);
 
   var vet = [p1, p2, p3, p4, p5];
 

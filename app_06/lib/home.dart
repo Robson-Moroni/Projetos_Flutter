@@ -41,7 +41,7 @@ class _HomeState extends State<Home> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
-          _foto(),
+
           _texto("Pense em um nº de 0 a 10"),
           _botao(),
           _texto2("$resultado"),
@@ -50,15 +50,6 @@ class _HomeState extends State<Home> {
     );
   }
 
-  _foto() {
-    return Center(
-      child: Image.network(
-        'https://www.nicepng.com/png/detail/15-154656_question-types-of-questions-lllll-pinterest-rhetorical-yes.png',
-        height: 170,
-        width: 170,
-      ),
-    );
-  }
 
   _botao() {
     return Padding(

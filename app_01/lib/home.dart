@@ -7,7 +7,7 @@ class WidgetHome extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: _titulo(),
-      backgroundColor: Color.fromARGB(255, 251, 253, 252),
+      backgroundColor: Color.fromARGB(255, 252, 253, 252),
       body: _body(),
     );
   }
@@ -16,7 +16,7 @@ class WidgetHome extends StatelessWidget {
     return AppBar(
       title: Text("Meu Perfil"),
       centerTitle: true,
-      backgroundColor: Color.fromARGB(255, 39, 100, 41),
+      backgroundColor: Color.fromARGB(255, 39, 101, 41),
     );
   }
 
@@ -50,7 +50,7 @@ class WidgetHome extends StatelessWidget {
       "Analista/Desenvolvedor BI\n"
       "Orangefox\n\n"
       "Assessor Técnico\n"
-      "Jucesp\n\n"
+      "Usp\n\n"
       "Formação\n\n"
       "Formação Administração - Unip\n"
       "Unip - 2008/2011\n\n"

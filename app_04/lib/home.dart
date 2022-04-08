@@ -52,7 +52,7 @@ class _HomeState extends State<Home> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
-          _foto(),
+
           _campo("Preço do Alcool", n1Controller),
           _campo("Preço da Gasolina", n2Controller),
           _botao(),
@@ -62,21 +62,13 @@ class _HomeState extends State<Home> {
     );
   }
 
-  _foto() {
-    return Center(
-      child: Image.network(
-        'https://wp-midia-nova.bidu.com.br/uploads/2017/01/05175045/%C3%A1lcool.png',
-        height: 150,
-        width: 150,
-      ),
-    );
-  }
+
 
   _campo(labelTitulo, objController) {
     return TextField(
       keyboardType: TextInputType.number,
       decoration: InputDecoration(
-          labelText: labelTitulo, labelStyle: TextStyle(color: Colors.black)),
+          labelText: labelTitulo, labelStyle: TextStyle(color: Colors.blue)),
       textAlign: TextAlign.center,
       style: TextStyle(color: Colors.black, fontSize: 25.0),
       controller: objController,

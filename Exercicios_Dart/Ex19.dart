@@ -17,11 +17,11 @@ class Pessoas {
 
 void main() {
 
-  Pessoas p1 = Pessoas("Paulo", 35);
-  Pessoas p2 = Pessoas("Roberta", 40);
-  Pessoas p3 = Pessoas("Carlos", 25);
-  Pessoas p4 = Pessoas("Eduardo", 20);
-  Pessoas p5 = Pessoas("Fabio", 30);
+  Pessoas p1 = Pessoas("gabriel", 15);
+  Pessoas p2 = Pessoas("jose", 13);
+  Pessoas p3 = Pessoas("rubens", 25);
+  Pessoas p4 = Pessoas("pedro", 20);
+  Pessoas p5 = Pessoas("carlos", 14);
 
   final vet = [p1, p2, p3, p4, p5];
 
